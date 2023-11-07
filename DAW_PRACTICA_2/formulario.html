@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <title>Formularios</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+
+    <!-- Course CSS -->
+    <link rel="stylesheet" href="./assets/css/formulario.css">
+
+    <!-- CSS personalizado -->
+    <style>
+      body {
+        background-image: url('https://img.freepik.com/foto-gratis/restaurante-borroso-muebles-blancos_1232-1271.jpg?w=740&t=st=1699093694~exp=1699094294~hmac=0e788d7ef346dce129d14818da901f5fda7b9a9e2808609872a5ee85986b5b75'); /* Reemplaza 'URL_DE_LA_IMAGEN' con la URL de tu imagen */
+        background-size: cover; /* Hacer que la imagen de fondo cubra toda la ventana */
+        background-repeat: no-repeat; /* Evitar que la imagen de fondo se repita */
+      }
+    </style>
+
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+
+      <div class="container">
+
+          <a href="index.html" class="navbar-brand"> <span class="text-primary">Casa</span>
+              Potenza</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarS"
+              aria-controls="navbarS" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarS">
+              <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Inicio</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+
+  </nav>
+
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-sm-4">
+          <div class="text-center">
+            <img src="./assets/img/CasaPotenzaColor.png" class="img-fluid" style="max-width: 100%; height: auto;" />
+          </div>
+        </div>
+        <div class="col-sm-8">
+          <div class="text-center">
+            <h1>Formulario de Login Inline</h1>
+            <form class="form-inline border border-primary p-4">
+                <div class="form-group mr-3">
+                  <label class="col-label-sm">Usuario:</label>
+                  <input type="text" class="form-control form-control-sm" placeholder="Username" />
+                </div>
+                <div class="form-group mr-3">
+                  <label class="col-label-sm">Password:</label>
+                  <input type="password" class="form-control form-control-sm" placeholder="Contraseña" />
+                </div>
+                <input type="submit" class="btn btn-primary mr-3" value="Entrar" />
+            </form>
+          </div>
+          <form>
+          <h1 class="text-center">Formulario de Registro</h1>
+          <div class="row justify-content-center">
+              <div class="col-sm-7 border border-primary p-4">
+                <div class="form-group">
+                  <label class="col-label-sm">Usuario:</label>
+                  <input type="text" class="form-control form-control-sm" placeholder="nombre de usuario" required />
+                </div>
+                <div class="form-group">
+                  <label class="col-label-sm">Email:</label>
+                  <input type="email" class="form-control form-control-sm" placeholder="email@gmail.com" required/>
+                </div>
+                <div class="form-group">
+                  <label class="col-label-sm">Contraseña:</label>
+                  <input type="password" class="form-control form-control-sm" placeholder="contraseña" required />
+                </div>
+                <div class="form-check form-check-inline ml-4">
+                  <input type="radio" name="sexo" class="form-check-input" value="h" />
+                  <label class="form-check-label">Hombre</label>
+                </div>
+                <div class="form-check form-check-inline ml-4">
+                  <input type="radio" name="sexo" class="form-check-input" value="m" />
+                  <label class="form-check-label">Mujer</label>
+                </div>
+                <div class="form-group">
+                  <label class="col-label-sm">Seleccionar foto de perfil:</label>
+                  <input type="file" class="form-control-file" />
+                </div>
+                <div class="text-right mb-3">
+                  <input type="submit" value="Registrar" class="btn  btn-primary" />
+                </div>
+              </div>
+          </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+  </body>
+</html>
